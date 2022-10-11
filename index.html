@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Menu Page</title>
+</head>
+<body>
+    <header id="uk-header">
+        <div id="uk-box" onclick="addMenu()">
+            <span class="uk-bars"></span>
+            <span class="uk-bars bars-top"></span>
+            <span class="uk-bars bars-top"></span>
+        </div>
+        <span id="uk-name">Lançamentos</span>
+    </header>
+    <div id="return-page" onclick="removeByPage()"></div>
+    <nav id="all-nav">
+        <header id="nav-header">
+            <span>Menu</span>
+        </header>
+        <div id="nav-menu">
+            <div class="nav-menu-items"
+            onclick="removeMenu('pagina', 'Lançamentos')">Lançamentos</div>
+            <div class="nav-menu-items"
+            onclick="removeMenu('animes', 'Animes')">Animes</div>
+            <div class="nav-menu-items">Pesquisar</div>
+            <div class="nav-menu-items">Notícias</div>
+            <div class="nav-menu-items">Categorias</div>
+            <div class="nav-menu-items">Calendário</div>
+            <div class="nav-menu-items">Populares</div>
+            <div class="nav-menu-items">Dublados</div>
+            <div class="nav-menu-items">Favoritos</div>
+            <div class="nav-menu-items">Assistidos</div>
+            <div class="nav-menu-items">Suporte</div>
+            <div class="nav-menu-items">Faq</div>
+        </div>
+    </nav>
+    <div id="pagina" class="faws">
+        <div class="square">
+            <div class="square-display">
+                <img src="./imgs/battle-athletess.jpg"/>
+                <p>Dragon Ball Super</p>
+            </div>
+        </div>
+        <div class="square">
+            <div class="square-display">
+                <img src="./imgs/boku-no-hero.jpg"/>
+                <p>Boku no Hero</p>
+            </div>
+        </div>
+        <div class="square">
+            <div class="square-display">
+                <img src="./imgs/date-a-live.jpg"/>
+                <p>Date a Live</p>
+            </div>
+        </div>
+        <div class="square">
+            <div class="square-display">
+                <img src="./imgs/dragonball.jpg"/>
+                <p>Dragon Ball Super</p>
+            </div>
+        </div>
+        <div class="square">
+            <div class="square-display">
+                <img src="./imgs/estab-life.jpg"/>
+                <p>Estab Life</p>
+            </div>
+        </div>
+        <div class="square">
+            <div class="square-display">
+                <img src="./imgs/kunoichi-tsubaki.jpg"/>
+                <p>Kunoichi Tsubaki</p>
+            </div>
+        </div>
+        <div class="square">
+            <div class="square-display">
+                <img src="./imgs/onepiece-1.jpg"/>
+                <p>One piece</p>
+            </div>
+        </div>
+    </div>
+    <div id="animes" class="faws">Página de Animes</div>
+    <script src="script.js"></script>
+</body>
+</html>
